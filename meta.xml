@@ -1,0 +1,17 @@
+<zFelpszada>
+    <!--// SHARED SCRIPTS \\-->
+    <script src="shared/config.lua" type="shared" cache="false"/>
+    <!--// CLIENT SCRIPTS \\-->
+    <script src="client/c.main.lua" type="client" cache="false"/>
+    <!--// SERVER SCRIPTS \\-->
+    <script src="server/s.main.lua"/>
+    <!--// EXPORT FUNCTIONS \\-->
+    <export function="isPlayerUsingLadder" type="server"/>
+    <export function="removePlayerLadder" type="server"/>
+    <export function="createLadder" type="server"/>
+    <export function="destroyLadder" type="server"/>
+    <!--// FILE ASSETS \\-->
+    <file src="assets/animations/ladders.ifp"/>
+    <!--// MTA VERSION \\-->
+    <min_mta_version server='1.6.0' client='1.6.0'/>
+</zFelpszada>
